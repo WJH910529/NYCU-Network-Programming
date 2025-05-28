@@ -29,15 +29,13 @@ make  # builds `npshell`
 
 Implement a Unix-style shell named npshell in C/C++ supporting:
 
->  1. External commands via `exec*`
+- External commands via `exec*`
 
-  
+- Ordinary pipes: `cmd | cmd`
 
->  2. Ordinary pipes: `cmd | cmd`
+- Numbered pipes: `cmd |N `and `cmd !N`, forwarding stdout and/or stderr to the Nth next command
 
->  3. Numbered pipes: `cmd |N `and `cmd !N`, forwarding stdout and/or stderr to the Nth next command
-
->  4. File redirection: `cmd > file`
+- File redirection: `cmd > file`
 
 Use only unnamed pipes, `fork/exec`, and `wait/waitpid`, handling large outputs and process limits correctly.
 
