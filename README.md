@@ -22,8 +22,6 @@ Project 1: NPShell
 ```bash
 
 make  # builds `npshell`
-
-
 ./npshell  # starts your custom shell
 
 ```
@@ -75,7 +73,7 @@ All I/O multiplexing must use `select` in a single process.
 **How to compile & exec**
 
 ```bash
-make np_multi_proc
+make
 ./np_multi_proc <port>
 ```
 
@@ -143,5 +141,5 @@ Implement a SOCKS 4/4A proxy and related CGI front-ends in C/C++:
     -   `panel_socks.cgi`: HTML form to drive `pj5.cgi`
         
 3.  **Firewall**
-    
+
     -   Deny all traffic by default; allow only flows matching CONNECT/BIND rules specified in `socks.conf`
