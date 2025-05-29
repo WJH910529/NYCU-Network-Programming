@@ -140,4 +140,4 @@ Implement a SOCKS 4/4A proxy and related CGI front-ends in C/C++:
         
 3.  **Firewall**
 
-    -   Deny all traffic by default; allow only flows matching the CONNECT/BIND rules specified in socks.conf. The pattern *.*.*.* permits all connections.
+    -   Deny all traffic by default; allow only flows matching the CONNECT/BIND rules specified in socks.conf. The pattern \*.\*.\*.\* permits all connections.
