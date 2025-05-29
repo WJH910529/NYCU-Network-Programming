@@ -1,5 +1,5 @@
 
-# NYCU-Network-Programming [NP project] <I’ll finish reorganizing and updating it in the near future.>
+# NYCU-Network-Programming [NP project]
   2025 NYCU 113-2 網路程式設計 Network Programming
 
 If it helps you, please click Star.🌟
